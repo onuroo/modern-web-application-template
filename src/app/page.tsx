@@ -5,9 +5,11 @@ import { useEffect } from "react";
 
 const Home = () => {
   const { state, updateTheme } = AppHooks();
+
   useEffect(() => {
     updateTheme({ value: "dark" });
   }, []);
+
   console.log("state", state);
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
