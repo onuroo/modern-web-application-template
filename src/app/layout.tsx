@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { AppProvider } from "@/contexts/app.context";
 import SiderBar from "@/components/sidebar";
@@ -28,6 +27,10 @@ export default function RootLayout({
             <main>{children}</main>
           </div>
         </AppProvider>
+        <script
+          async
+          src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"
+        ></script>
       </body>
     </html>
   );
