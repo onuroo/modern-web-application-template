@@ -22,7 +22,7 @@ export default function RootLayout({
           <SiderBar />
           <div
             id="main-content"
-            className="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-900"
+            className="relative w-full h-full bg-gray-50 lg:pl-64 lg:pt-48 dark:bg-gray-900"
           >
             <main>{children}</main>
           </div>
