@@ -1,16 +1,16 @@
 "use client";
-import { AppHooks } from "@/hooks/app.hooks";
+// import { AppHooks } from "../hooks/app.hooks";
 import Image from "next/image";
 import { useEffect } from "react";
 
 const Home = () => {
-  const { state, updateTheme } = AppHooks();
+  // const { state, updateTheme } = AppHooks();
 
-  useEffect(() => {
-    updateTheme({ value: "dark" });
-  }, []);
+  // useEffect(() => {
+  //   updateTheme({ value: "dark" });
+  // }, []);
 
-  console.log("state", state);
+  // console.log("state", state);
   return (
     <div>
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
